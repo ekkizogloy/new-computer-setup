@@ -1,6 +1,0 @@
-TAGS
-*.swp
-*.swo
-*.pytest_cache*
-.DS_Store
-
