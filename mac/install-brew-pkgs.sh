@@ -9,7 +9,7 @@ packages=(
     "wget"
     "python@2"
     "python3"
-#    "macvim"
+    "macvim"
 #    "emacs --with-cocoa"
 #    "postgresql"
 #    "vips"
@@ -31,9 +31,11 @@ do
     if brew ls --versions $i > /dev/null; then
         echo >&2 "'$i' is ALREADY installed. Updating now...";
         brew upgrade $i
+        brew link $i
     else
         echo >&2 "'$i' is NOT installed. Installing now...";
         brew install $i
+        brew link $i
     fi
 done
 
