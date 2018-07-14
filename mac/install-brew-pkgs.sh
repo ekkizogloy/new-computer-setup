@@ -10,6 +10,7 @@ packages=(
     "python@2"
     "python3"
     "macvim"
+    "imagemagick"
 #    "emacs --with-cocoa"
 #    "postgresql"
 #    "vips"
