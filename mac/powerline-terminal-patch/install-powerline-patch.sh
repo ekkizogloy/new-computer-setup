@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp .powerlinerc ~/.powerlinerc
+cp .bash_powerlinerc ~/.bash_powerlinerc
