@@ -38,8 +38,8 @@ else
     echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
 #--------------------------------
-if [ -f ~/.powerlinerc ]; then
-    source ~/.powerlinerc
+if [ -f ~/.bash_powerlinerc ]; then
+    source ~/.bash_powerlinerc
 fi
 #--------------------------------
 if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
